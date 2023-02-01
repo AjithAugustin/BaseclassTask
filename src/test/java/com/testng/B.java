@@ -42,6 +42,8 @@ public class B extends BaseClass {
 		}
 		
 		driver.get("https://adactinhotelapp.com/");
+		
+		driver.close();
 	
 	}
 }
